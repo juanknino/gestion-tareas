@@ -1,0 +1,20 @@
+{
+    "name": "jnino/gestion-tareas",
+    "description": "Web app to taxks management simples",
+    "authors": [
+        {
+            "name": "Juan Carlos Nino",
+            "email": "juancnino@live.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv": "^4.3"
+    },
+    "autoload": {
+    "psr-4": {
+        "App\\": "app/"
+    }
+    }
+}
